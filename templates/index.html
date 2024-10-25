@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Images to Create GIF</title>
+    <link rel="stylesheet" href=".\static\style.css\">
+</head>
+<body>
+    <h1>Upload Images to Create GIF</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="images" multiple>
+        <button type="submit">Upload</button>
+    </form>
+    {% if gif_url %}
+        <h2>Generated GIF:</h2>
+        <img src="{{ gif_url }}" alt="Generated GIF">
+    {% endif %}
+</body>
+</html>
