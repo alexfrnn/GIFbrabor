@@ -1,0 +1,15 @@
+# Ignorar diretórios de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de uploads temporários
+uploads/
+
+# Ignorar arquivos gerados
+static/team.gif
+
+# Ignorar arquivos de configuração do ambiente
+.env
+
+# Ignorar diretório do ambiente virtual
+venv/
