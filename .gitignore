@@ -6,10 +6,12 @@ __pycache__/
 uploads/
 
 # Ignorar arquivos gerados
-static/team.gif
 
 # Ignorar arquivos de configuração do ambiente
 .env
 
 # Ignorar diretório do ambiente virtual
 venv/
+
+# Ignorar diretório de configuração do VS Code
+.vscode/
