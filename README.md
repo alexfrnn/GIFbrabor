@@ -1,4 +1,4 @@
-```markdown
+
 # Flask GIF Creator 
 [Read this in English](README_EN.md)
 
@@ -13,6 +13,8 @@ Este projeto é uma aplicação Flask que permite fazer upload de duas imagens, 
 1. Clone o repositório:
    ```sh
    git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+    ```sh
    cd seu-repositorio
    ```
 
